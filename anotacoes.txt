@@ -1,4 +1,18 @@
 # js-003-rs-week-10
 
 # Anotacoes:
-- ...
+- Aula 1
+    - Configuração do ambiente.
+- Aula 2
+    - Desenvolvimento do backend.
+        yarn init -y
+        yarn add express
+        yarn add nodemon -D
+        yarn add mongoose
+        yarn add axios
+    - Métodos HTTP: GET, POST, PUT, DELETE
+    - Tipos de parâmetros:
+        - Query Params: request.query (usados para filtros, ordenacao, paginacao)
+        - Route Params: request.params (identificar um recurso na alteracao ou remocao)
+        - Body: request.body (dados para criacao ou alteracao de um registro)
+    - MongoDB (nao-relacional)
