@@ -10,9 +10,19 @@
         yarn add nodemon -D
         yarn add mongoose
         yarn add axios
+    - Iniciar projeto.
+        node dev
     - Métodos HTTP: GET, POST, PUT, DELETE
     - Tipos de parâmetros:
         - Query Params: request.query (usados para filtros, ordenacao, paginacao)
         - Route Params: request.params (identificar um recurso na alteracao ou remocao)
         - Body: request.body (dados para criacao ou alteracao de um registro)
     - MongoDB (nao-relacional)
+- Aula 3
+    - Desenvolvimento da versão web.
+        yarn create react-app web
+    - Iniciar projeto.
+        yarn start
+    - Componente: bloco isolado de HTML, CSS e JS; o qual nao interfere no restante da aplicacao.
+    - Propriedade: informacoes que o componente pai passa para o componente filho.
+    - Estado: informacoes mantidas pelo componente (veja mais sobre: imutabilidade).
