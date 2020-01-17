@@ -26,3 +26,17 @@
     - Componente: bloco isolado de HTML, CSS e JS; o qual nao interfere no restante da aplicacao.
     - Propriedade: informacoes que o componente pai passa para o componente filho.
     - Estado: informacoes mantidas pelo componente (veja mais sobre: imutabilidade).
+- Aula 4
+	- Desenvolvimento do mobile (usando Expo para nao usar android studio)
+		yarn global add expo-cli
+		expo init mobile
+		expo add react-navigation
+		expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+		expo add react-navigation-stack @react-native-community/masked-view
+		expo install react-native-maps
+		expo install expo-location
+		yarn add axios
+	- Iniciar projeto.
+		expo start
+	- No app Expo no emulador, Ctrl+M, permite fazer reload (no celular eh so sacudir).
+	- Documentacao do Expo: https://docs.expo.io/
