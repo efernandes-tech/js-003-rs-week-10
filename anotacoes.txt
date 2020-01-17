@@ -3,35 +3,36 @@
 # Run:
 	- Backend:
 		yarn install
-		node dev
+		yarn dev
 		- Requisições para:
 			http://localhost:3333/devs - GET - Listar
 			http://localhost:3333/devs - POST - Cadastrar
-			http://localhost:3333/search - GET - Buscar			
+			http://localhost:3333/search - GET - Buscar
 	- Web:
 		yarn install
 		yarn start
 		- Acessar:
 			http://localhost:3000/
 	- Mobile:
+		yarn install
 		expo start
 		- Acessar no Celular:
 			- Instalar aplicativo Expo.
 			- Ler o Qrcode.
-			
+
 # Anotacoes:
 - Aula 1
     - Configuração do ambiente.
 - Aula 2
     - Desenvolvimento do backend.
         yarn init -y
-		
+
         yarn add express
         yarn add nodemon -D
         yarn add mongoose
         yarn add axios
     - Iniciar projeto.
-        node dev
+        yarn dev
     - Métodos HTTP: GET, POST, PUT, DELETE
     - Tipos de parâmetros:
         - Query Params: request.query (usados para filtros, ordenacao, paginacao)
@@ -49,14 +50,14 @@
 - Aula 4
 	- Desenvolvimento do mobile (usando Expo para nao usar android studio)
 		yarn global add expo-cli
-		
+
 		expo init mobile
 		expo add react-navigation
 		expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
 		expo add react-navigation-stack @react-native-community/masked-view
 		expo install react-native-maps
 		expo install expo-location
-		
+
 		yarn add axios
 	- Iniciar projeto.
 		expo start
