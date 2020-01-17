@@ -1,11 +1,31 @@
 # js-003-rs-week-10
 
+# Run:
+	- Backend:
+		yarn install
+		node dev
+		- Requisições para:
+			http://localhost:3333/devs - GET - Listar
+			http://localhost:3333/devs - POST - Cadastrar
+			http://localhost:3333/search - GET - Buscar			
+	- Web:
+		yarn install
+		yarn start
+		- Acessar:
+			http://localhost:3000/
+	- Mobile:
+		expo start
+		- Acessar no Celular:
+			- Instalar aplicativo Expo.
+			- Ler o Qrcode.
+			
 # Anotacoes:
 - Aula 1
     - Configuração do ambiente.
 - Aula 2
     - Desenvolvimento do backend.
         yarn init -y
+		
         yarn add express
         yarn add nodemon -D
         yarn add mongoose
@@ -29,14 +49,22 @@
 - Aula 4
 	- Desenvolvimento do mobile (usando Expo para nao usar android studio)
 		yarn global add expo-cli
+		
 		expo init mobile
 		expo add react-navigation
 		expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
 		expo add react-navigation-stack @react-native-community/masked-view
 		expo install react-native-maps
 		expo install expo-location
+		
 		yarn add axios
 	- Iniciar projeto.
 		expo start
 	- No app Expo no emulador, Ctrl+M, permite fazer reload (no celular eh so sacudir).
 	- Documentacao do Expo: https://docs.expo.io/
+- Aula 5
+	- Desenvolvimento avancado.
+		cd backend
+		yarn add socket.io
+		cd mobile
+		yarn add socket.io-client
